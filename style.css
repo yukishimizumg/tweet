@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/* 共通部分 
+-----------------------*/
+html {
+    font-size: 100%;
+}
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    min-height: 100vh;
+}
+img {
+    max-width: 100%;
+}
+h1  {
+    padding-left: 20px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.wrapper{
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 4%;
+}
+
+
+.error-list li {
+    color: red;
+    list-style: none;
+}
+
+h2 {
+    background-color: rgb(29, 161, 242);
+color: #fff;
+border-radius: 2.5px;
+margin-bottom: 15px;
+padding: 5px;
+}
+
+/* フォーム
+-----------------------*/
+.form-group {
+    /* background-color: #E8F4FA; */
+    /* border: 5px solid #6DD5FA; */
+    border: 5px solid rgb(29, 161, 242);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+input {
+    display: block;
+}
+textarea {
+    /* border: 1px solid #b8b4b4; */
+    border-style: none;
+    border-radius: 5px;
+    width: 95%;
+    height: 6rem;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+textarea::placeholder {
+    font-size: 1.2rem;
+}
+textarea:focus {
+    outline: none;
+    border-radius: unset;
+    border-bottom:1px solid #cccccc;
+    border-right:none;
+    border-left:none;
+    border-top:none;
+}
+.btn {
+    color: #fff;
+    border-radius: 9999px;
+    border-style: none;
+    padding: 0.5rem 1rem;
+}
+
+.tweet-btn {
+    background-color: rgb(29, 161, 242);
+    margin:0 0 0 auto;
+}
+
+.tweet-icon {
+    margin-bottom: 20px;
+}
+.tweet-icon img {
+    width: 25px;
+    vertical-align: middle;
+}
+.tweet-content {
+    min-height: 100px;
+    border-bottom: 1px solid #b8b4b4;
+    padding: 15px 10px 5px;
+}
+.tweet-time {
+    font-size: 0.8rem;
+
+}
+.tweet-desc {
+    position: relative;
+    margin-bottom: 5px;
+    width: 90%;
+}
+.tweet-text a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+}
+.tweet-desc:hover {
+    opacity: 60%;
+    background-color: #fff;
+}
+.good {
+    text-align: right;
+    font-size: 1.2rem;
+}
+.good-icon-checked {
+    color: #fe53bb;
+}
+.tweet-time,
+.good-icon-notchecked {
+    color: rgb(91, 112, 131);
+}
+/* .tweet-desc {
+    display: flex;
+    justify-content: space-between;
+} */
+span {
+    margin-left: 3px;
+}
+#home {
+    display: flex;
+    justify-content: space-between;
+}
+.main {
+    width: 75%;
+}
+.logo {
+    width: 32px;
+}
+.main-nav img {
+    vertical-align: middle;
+}
+.nav-home,
+.nav-item {
+    margin-left: 10px;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+.nav-home {
+    color: rgb(29, 161, 242);
+}
+.nav-item {
+    color: rgb(75, 75, 75);
+}
+.main-nav li {
+    padding: 15px 20px;
+    border-radius: 9999px;
+}
+.main-nav li:hover {
+
+    background-color: rgb(29, 161, 242, 0.1);
+}
+.page-header {
+    width: 22%;
+}
